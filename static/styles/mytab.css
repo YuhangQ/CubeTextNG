@@ -1,0 +1,78 @@
+body {
+    padding: 0px;
+    margin: 0;
+    background-color: #1e1e1e;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#config-example {
+    width: 50vw;
+    height: calc(100vh - 52px);
+    position: absolute;
+    z-index: 1;
+}
+
+.editor {
+    width: 100vw;
+    height: calc(100vh - 52px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #1e1e1e;
+}
+
+.status {
+    user-select: none;
+    width: 100vw;
+    height: 20px;
+    position:absolute;
+    background-color: #0063a6;
+    bottom: 0px;
+    color: white;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    text-align: center;
+}
+
+.status-encoding {
+    height: 100%;
+    width: 50px;
+    float: right;
+}
+
+.status-message {
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 0px;
+    text-align: left;
+    background-color: rgb(22, 130, 93);
+}
+
+.status-line {
+    height: 100%;
+    width: 100px;
+    float: right;
+}
+
+.status-lang {
+    height: 100%;
+    width: 80px;
+    float: right;
+}
+
+.container {
+    position:relative;
+    width: 100vw;
+    height: calc(100vh - 32px);
+}
+
+.myGlyphMarginClass {
+	background: red;
+}
+.myContentClass {
+	background: lightblue;
+}

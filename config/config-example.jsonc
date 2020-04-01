@@ -1,0 +1,69 @@
+{
+
+    /*
+    -----------------------------------
+    试验性的配置文件，某些配置项可能无作用
+    -----------------------------------
+    */
+
+    // 编辑器核心的颜色主题。
+    // 现在有vs-dark-plus 、vs-light、 vs-dark 两款。
+    // 强烈推荐 vs-dark-plus，
+    "theme": "vs-dark-plus",
+
+    // 字体设置，前边的优先级大
+    "fontFamily": "Consolas, 'Microsoft YaHei', 黑体, 宋体",
+
+    // 字体大小，单位 px
+    "fontSize": 18,
+
+    // 一个制表符所占的空格数
+    "tabSize": 4,
+
+    // 按 Tab 键时是否改为插入空格
+    "insertSpaces": true,
+
+    // 是否在左括号后自动插入右括号，有如下四个选项：
+    // languageDefined: 根据语言选择合适的方案
+    // beforeWhitespace: 只有光标在空白字符左侧闭合括号
+    // always: 总是
+    // never: 从不
+    "autoClosingBrackets": "languageDefined",
+
+    // 是否在左引号后自动插入右引号，有如下四个选项：
+    // languageDefined: 根据语言选择合适的方案
+    // beforeWhitespace: 只有光标在空白字符左侧闭合引号
+    // always: 总是
+    // never: 从不
+    "autoClosingQuotes": "languageDefined",
+
+    // 控制自动缩进，有如下选项：
+    // none: 不会自动缩进
+    // keep: 保留当前行的缩进
+    // brackets: 保留当前行的缩进并缩进括号
+    // advanced: 保留当前行的缩进并缩进括号此外还会参考语言规则
+    // full: 保留当前行的缩进并缩进括号此外还会根据语言规则自行调整最优方案
+    "autoIndent": "full",
+
+    // 是否启用代码折叠
+    "folding": true,
+
+    // 是否显示行号
+    "lineNumbers": true,
+
+    // 使用 Ctrl 键和鼠标滚轮进行字体缩放
+    // 相比于使用 Ctrl + 和 Ctrl - 缩放，此项改动不会被保存到设置。
+    "mouseWheelZoom": false,
+
+
+    // 是否显示缩进参考线
+    "renderIndentGuides": true,
+
+
+    // 是否显示缩略图
+    "miniMap": true,
+
+    // 是否启用语言的自动完成
+
+    "autoComplete": false
+}
